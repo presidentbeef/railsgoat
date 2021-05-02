@@ -28,6 +28,7 @@ gem "therubyracer"
 gem "turbolinks"
 gem "uglifier"
 gem "unicorn"
+gem 'brakeman', git: 'https://github.com/klausbadelt/brakeman.git', branch: 'github-reporter'
 
 # Add SMTP server support using MailCatcher
 # NOTE: https://github.com/sj26/mailcatcher#bundler
