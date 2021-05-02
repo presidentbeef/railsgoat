@@ -1,6 +1,7 @@
 brakeman:
   name: Brakeman
   runs-on: ubuntu-latest
+  on: [push, pull_request]
 
   steps:
     - uses: actions/checkout@v2
